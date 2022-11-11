@@ -4,7 +4,7 @@
         font: 1.5rem 'MutatorSans', sans-serif;
     }
     #grad {
-       height:921px;
+       height:920x;
         background-image: rgb(114,152,145);
         background-image: linear-gradient(0deg, rgba(114,152,145,1) 10%, rgba(232,217,184,1) 100%);   
     }
@@ -16,12 +16,34 @@
         justify-content: center;
         margin: 0 auto;
     }
-    .container2 {
-        width: 500px;
-        height: 250px;
-        margin: 0px;
-        outline: solid 1px black;
-    }
     .center {
         text-align: center;
     }
+    .body   
+        {  
+        height: 125vh;  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        }  
+    .header {  
+        background-color: rgb(84, 172, 212);  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 0;  
+        height: 30px;  
+        display: flex;  
+        align-items: center;
+        }  
+    .header * {  
+        display: inline;  
+        }  
+    .header li {  
+        margin: 20px;  
+        }  
+    .header li a {  
+        color: blue;  
+        text-decoration: none;  
+        }
