@@ -24,8 +24,11 @@
         margin-top: 80px;  
         padding: 30px;  
         background-size: cover;  
-        font-family: sans-serif;  
-        }  
+        font-family: sans-serif;
+        }
+    .scrollbar::-webkit-scrollbar {
+        display: none;
+        }
     .header {  
         background-color: rgb(84, 172, 212);  
         position: fixed;  
@@ -43,6 +46,12 @@
         margin: 20px;  
         }  
     .header li a {  
-        color: blue;  
+        color: rgb(255, 255, 255);  
         text-decoration: none;  
+        }
+    .white {
+        color: rgb(255, 255, 255);
+        }
+    .black {
+        color: rgb(0, 0, 0);
         }
