@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>nrliii's test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer>
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-</body>
 </head>
 <body id="grad" class="body scrollbar">
     <header class="header">  
         <nav>  
         <ul>  
-        <li><a href="#" id="font"><h4 class="white"> Home </h4></a></li>  
-        <li><a href="#" id="font"><h4 class="white"> About </h4></a></li>
+        <li><a href="#" id="font"><h4> Home </h4></a></li>  
+        <li><a href="#textbox" id="font"><h4 class="white"> About </h4></a></li>
         </ul>  
         </nav>  
     </header>
@@ -25,5 +30,20 @@
     <div class="center">
         <div id="font" class="black"><h2>!nrliii#1355</h2></div>
     </div>
+    <span class="brlarge"></span>
+        <div id="textbox" class="section scrollspy">
+    <div class="ccenter">
+        <div class="container2">
+            <p id="font2" class="brown">
+                hello there
+                <br>
+                my name is nikola and i am studying cs
+                <br>
+                i also like playing games so yeah
+            </p>
+        </div>
+    </div>
+        </div> 
+    <img class="bimg" src="images/bedrock.png" alt=":(">
 </body>
 </html>

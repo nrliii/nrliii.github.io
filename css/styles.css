@@ -1,20 +1,56 @@
+    @font-face { font-family: Minecraft; src: url('minecraft.otf'); } 
     #font {
         font-weight: inherit;
         text-transform: uppercase;
         font: 1.5rem 'MutatorSans', sans-serif;
     }
+    #font2 {
+        font-weight: inherit;
+        font: 1.5rem 'Minecraft', sans-serif;
+    }
     #grad {
-       height:920x;
-        background-image: rgb(114,152,145);
-        background-image: linear-gradient(0deg, rgba(114,152,145,1) 5%, rgba(232,217,184,1) 100%);   
+        height:2000x;
+        background: rgb(95,128,122);
+        background: linear-gradient(0deg, rgba(95,128,122,1) 5%, rgb(233,220,195) 100%) no-repeat;
+        background-color: rgb(95,128,122);
+    }
+    #gradr {
+        height:2000x;
+        background: rgb(233,220,195);
+        background: linear-gradient(0deg, rgba(233,220,195  ,1) 5%, rgb(95,128,122) 100%) no-repeat;   
     }
     .container1 {
         width: 250px;
         height: 250px;
-        outline: solid 3px black;
+        outline: solid 4px black;
         display: flex;
         justify-content: center;
         margin: 0 auto;
+        
+    }
+    .ccenter {
+        display: flex;
+        justify-content: center;
+    }
+    .ccenter .container2 {   
+        margin: 20px;
+        margin-bottom: 100px;
+	    padding: 75px 150px 100px 150px;
+	    border-radius: 10px;
+	    width: 1200px;
+
+	    color: rgb(200,200,200);
+	    background-color: rgb(46,46,46);
+	    box-shadow: 0 0 10px rgb(60,60,60);
+    }
+    .container2 div:target {
+        margin-left: 10px;
+    }
+    .container2 p {
+        margin-top: 0.25em;
+        margin-bottom: 0.75em;
+        margin-left: 5px;
+        color: rgb(170,170,170);
     }
     .center {
         text-align: center;
@@ -54,4 +90,28 @@
         }
     .black {
         color: rgb(0, 0, 0);
+        }
+    .brown {
+        color: rgb(114, 82, 55)
+        }
+    .br {
+        display: block;
+        margin-bottom: 0em;
+        }
+          
+    .brmedium {
+         display: block;
+         margin-bottom: 1em;
+        }
+          
+    .brlarge {
+        display: block;
+        margin-bottom: 25em;
+        }
+    .bimg {
+        position: relative;
+        margin: -250px -5px;
+        width: 160%;
+        bottom:0%;
+        left: -38px
         }
