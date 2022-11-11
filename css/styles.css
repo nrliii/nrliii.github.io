@@ -6,7 +6,7 @@
     #grad {
        height:920x;
         background-image: rgb(114,152,145);
-        background-image: linear-gradient(0deg, rgba(114,152,145,1) 10%, rgba(232,217,184,1) 100%);   
+        background-image: linear-gradient(0deg, rgba(114,152,145,1) 5%, rgba(232,217,184,1) 100%);   
     }
     .container1 {
         width: 250px;
