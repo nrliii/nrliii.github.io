@@ -77,13 +77,30 @@
         text-align: center;
         
     }
-    .discordpngcenter {
+    .dcontainer {
+        width: 275px;
+        height: 50px;
+        outline: none 2px black;
         display: flex;
         justify-content: center;
-        margin: -70px 0px 0px 790px;
-        margin-bottom: 50px;
+        margin: auto;
+        
+    }
+    .dcontainer img {
+        display: flex;
+        justify-content: center;
+        margin: 5px auto auto -450px;
 	    padding: 0px;
-        position: absolute;
+        position: relative;
+        object-fit: cover;
+    }
+    .dcontainer h2 {
+        display: flex;
+        justify-content: center;
+        margin: auto auto auto 55px;
+	    padding: 0px;
+        position: relative;
+        object-fit: cover;
     }
     .body {  
         height: 125vh;  
@@ -143,8 +160,9 @@
         margin-bottom: 25em;
         }
     .bimg {
+        display: flex;
         position: relative;
-        margin: -100px 0px;
+        object-fit: cover;
         width: 110%;
         bottom:0%;
         left: -38px
