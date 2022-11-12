@@ -124,6 +124,7 @@
         height: 30px;  
         display: flex;  
         align-items: center;
+        box-shadow: 0 0 10px rgb(61, 124, 153);
         z-index: 1;
         }  
     .header * {  
