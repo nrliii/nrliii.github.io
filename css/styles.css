@@ -1,10 +1,10 @@
     @font-face { font-family: Minecraft; src: url('minecraft.otf'); } 
-    #font {
+    .font {
         font-weight: inherit;
         text-transform: uppercase;
         font: 1.5rem 'MutatorSans', sans-serif;
     }
-    #font2 {
+    .font2 {
         font-weight: inherit;
         font: 1.5rem 'Minecraft', sans-serif;
     }
@@ -168,3 +168,23 @@
         bottom:0%;
         left: -38px
         }
+    .button {
+        padding-top: 1px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    .button2 {
+        padding-top: 1px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+        }
+        
