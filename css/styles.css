@@ -17,7 +17,8 @@
     .gradr {
         height:2000x;
         background: rgb(233,220,195);
-        background: linear-gradient(0deg, rgba(233,220,195  ,1) 5%, rgb(95,128,122) 100%) no-repeat;   
+        background: linear-gradient(0deg, rgba(233,220,195  ,1) 5%, rgb(95,128,122) 100%) no-repeat;
+        background-color: rgb(233,220,195);
     }
     .container1 {
         width: 250px;
@@ -74,6 +75,15 @@
     }
     .center {
         text-align: center;
+        
+    }
+    .discordpngcenter {
+        display: flex;
+        justify-content: center;
+        margin: -70px 0px 0px 790px;
+        margin-bottom: 50px;
+	    padding: 0px;
+        position: absolute;
     }
     .body {  
         height: 125vh;  
