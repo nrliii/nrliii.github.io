@@ -8,13 +8,13 @@
         font-weight: inherit;
         font: 1.5rem 'Minecraft', sans-serif;
     }
-    #grad {
+    .grad {
         height:2000x;
         background: rgb(95,128,122);
         background: linear-gradient(0deg, rgba(95,128,122,1) 5%, rgb(233,220,195) 100%) no-repeat;
         background-color: rgb(95,128,122);
     }
-    #gradr {
+    .gradr {
         height:2000x;
         background: rgb(233,220,195);
         background: linear-gradient(0deg, rgba(233,220,195  ,1) 5%, rgb(95,128,122) 100%) no-repeat;   
@@ -52,6 +52,26 @@
         margin-left: 5px;
         color: rgb(170,170,170);
     }
+    .ccenter .container3 {   
+        margin: 20px;
+        margin-bottom: 100px;
+	    padding: 35px 30px 30px 30px;
+	    border-radius: 10px;
+	    width: 120px;
+
+	    color: rgb(200,200,200);
+	    background-color: rgb(46,46,46);
+	    box-shadow: 0 0 10px rgb(60,60,60);
+    }
+    .container3 div:target {
+        margin-left: 10px;
+    }
+    .container3 p {
+        margin-top: 0.25em;
+        margin-bottom: 0.75em;
+        margin-left: 5px;
+        color: rgb(170,170,170);
+    }
     .center {
         text-align: center;
     }
@@ -62,6 +82,10 @@
         background-size: cover;  
         font-family: sans-serif;
         }
+    .hscroll {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .scrollbar::-webkit-scrollbar {
         display: none;
         }
@@ -110,8 +134,8 @@
         }
     .bimg {
         position: relative;
-        margin: -250px -5px;
-        width: 160%;
+        margin: -100px 0px;
+        width: 110%;
         bottom:0%;
         left: -38px
         }

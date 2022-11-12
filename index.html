@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>nrliii's test</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer>
+    <script src="js/jquery-3.6.1.js" defer>
         $(document).ready(function(){
-            $('.scrollspy').scrollSpy();
-        });
+            $('.scrollspy').scrollSpy;
     </script>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
-<body id="grad" class="body scrollbar">
+<body id="section_1" class="body scrollbar hscroll grad section scrollspy">
     <header class="header">  
         <nav>  
         <ul>  
-        <li><a class="waves-effect" href="#" id="font"><h4> Home </h4></a></li>  
-        <li><a class="waves-effect" href="#textbox" id="font"><h4 class="white"> About </h4></a></li>
+        <li><a href="#section_1" id="font"><h4> Home </h4></a></li>  
+        <li><a href="#section_2" id="font"><h4 class="white"> About </h4></a></li>
         </ul>  
         </nav>  
     </header>
+    <div class="ccenter">
+        <div class="container3">
+            <p id="font2" class="center">
+                welcome.
+            </p>
+        </div>
+    </div>
     <div class="container1">
-    <img alt="nrliii, The interesting guy" src="https://avatars.githubusercontent.com/u/69441714">
+    <a href="https://github.com/nrliii"><img alt="nrliii, The interesting guy" src="https://avatars.githubusercontent.com/u/69441714" height="250" width="250"></a>
     </div>
     <br>
     <div class="center">
         <div id="font" class="black"><h2>!nrliii#1355</h2></div>
     </div>
     <span class="brlarge"></span>
-        <div id="textbox" class="section scrollspy">
+    <span class="brlarge"></span>
+        <div id="section_2" class="section scrollspy">
     <div class="ccenter">
         <div class="container2">
-            <p id="font2" class="brown">
+            <p id="font2">
                 hello there
                 <br>
                 my name is nikola and i am studying cs
@@ -43,7 +50,8 @@
             </p>
         </div>
     </div>
-        </div> 
+        </div>
+    <script src="js/click-scroll.js" defer></script>
     <img class="bimg" src="images/bedrock.png" alt=":(">
 </body>
 </html>
