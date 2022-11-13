@@ -7,6 +7,10 @@ function check(form) {
         {
         location.href = 'https://www.youtube.com/c/Lukexog';
         }
+    else if(form.userid.value == "user" && form.pswrd.value == "user")
+        {
+        location.href = no;
+        }
     else
         {
         alert("Error Password or Username Required");
