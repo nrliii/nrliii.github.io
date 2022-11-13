@@ -12,15 +12,15 @@ $.each(sectionArray, function(index, value){
          
         
          if ( docScroll1 >= offsetSection ){
-             $('li a').removeClass('active');
-             $('li a:link').addClass('inactive');  
-             $('li a').eq(index).addClass('active');
-             $('li a:link').eq(index).removeClass('inactive');
+             $('nav a').removeClass('active');
+             $('nav a:link').addClass('inactive');  
+             $('nav a').eq(index).addClass('active');
+             $('nav a:link').eq(index).removeClass('inactive');
          }
          
      });
     
-    $('li a').eq(index).click(function(e){
+    $('nav a').eq(index).click(function(e){
         var offsetClick = $('#' + 'section_' + value).offset().top;
         e.preventDefault();
         $('html, body').animate({
@@ -34,9 +34,9 @@ $.each(sectionArray, function(index, value){
 });
 
 $(document).ready(function(){
-    $('li a:link').addClass('inactive');    
-    $('li a').eq(0).addClass('active');
-    $('li a:link').eq(0).removeClass('inactive');
+    $('nav a:link').addClass('inactive');    
+    $('nav a').eq(0).addClass('active');
+    $('nav a:link').eq(0).removeClass('inactive');
     
 
 
