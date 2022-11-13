@@ -131,18 +131,21 @@
         z-index: 1;
         }  
     .header * {  
-        display: inline;  
+        display: inline;
+        margin: 20px;
         }  
-    .header li {  
-        margin: 20px;  
-        }  
-    .header li a {  
+    .header a {  
         color: rgb(255, 255, 255);  
         text-decoration: none;  
         }
-    .white {
-        color: rgb(255, 255, 255);
-        }
+    nav:has(a:hover) > a:not(:hover){
+        opacity: 0.4;
+    }
+    nav a:hover{
+        text-decoration-line: underline;
+        text-decoration-thickness: 5px;
+        text-decoration-color: gray;
+    }
     .black {
         color: rgb(0, 0, 0);
         }
@@ -247,3 +250,8 @@
             transform: scale(1);
         }
     }
+    @media only screen and (hover: none) and (pointer: coarse){
+            .bimg{
+                display: none;
+            }
+        }
